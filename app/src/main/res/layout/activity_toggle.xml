@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.customview.toggleview.ToggleView
+        android:id="@+id/tog_top"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:closeBgColor="@color/color_ccc"
+        app:openBgColor="@color/color_1962E8"
+        app:openState="true" />
+
+    <com.example.customview.toggleview.ToggleView
+        android:id="@+id/tog_bottom"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

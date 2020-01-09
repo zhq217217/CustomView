@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleView">
+        <attr name="openState" format="boolean" />
+        <attr name="openBgColor" format="color" />
+        <attr name="closeBgColor" format="color" />
+        <attr name="toggleColor" format="color" />
+    </declare-styleable>
+
+</resources>
